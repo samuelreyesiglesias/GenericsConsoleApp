@@ -32,6 +32,8 @@ namespace GenericsConsoleApp
         public static void ShowNumber()
         {
             Console.WriteLine($"The number you sent to the class was:"+ data.Number1.ToString());
+            Console.WriteLine("\n");
+            Console.WriteLine($"Hola amigos como estan en este día.");
         }
     }
 }
